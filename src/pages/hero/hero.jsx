@@ -10,7 +10,7 @@ export function Hero(){
     const [navActive,setNavActive] = useState(false)
     const [ref, inView] = useInView();
     const toggleMobileNav = () => {
-       setNavActive((prev) => !prev)
+       setNavActive((prev) => !prev) 
     }
 
     return (
